@@ -1,0 +1,8 @@
+# todas las carpetas venv en cualquier nivel
+**/venv/
+# variables de entorno
+*.env
+# carpetas de caché
+**/__pycache__/
+# migraciones en cualquier aplicación
+**/migrations/
