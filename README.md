@@ -207,10 +207,4 @@ Ensure `knowledge_base.json` is present in the root directory. If not, create it
 python manage.py runserver 8002
 ```
 
-8. **Test the Installation**
-Open your browser or use curl to test the endpoint:
-```bash
-curl "http://localhost:8002/rag/gpt2/?query=What is technology?"
-```
-
 The application should now be running at `http://localhost:8002/`
